@@ -1,0 +1,41 @@
+{
+  "home": {
+    "name": "Lazar Vujović",
+    "role": "System & Network Engineer",
+    "heroLead": "Ovo nije savršen svet.",
+    "heroLine2": "Sistemi padaju. Rokovi su realni.",
+    "heroLine3": "Radim u tom okruženju.",
+    "tagline1": "Infrastruktura — iz odgovornosti.",
+    "tagline2": "Razvoj — iz sposobnosti.",
+    "nav": {
+      "about": "Više o meni",
+      "experience": "Iskustvo",
+      "projects": "Projekti",
+      "cv": "Preuzmi CV"
+    },
+    "cards": {
+      "about": {
+        "title": "Više o meni",
+        "desc": "Kratka priča i put koji me je oblikovao."
+      },
+      "exp": {
+        "title": "Iskustvo",
+        "desc": "Sys/admin, mreže, M365, virtualizacija, support."
+      },
+      "dev": {
+        "title": "Development",
+        "desc": "React / Next.js / RN kao dodatna snaga kad treba."
+      }
+    },
+    "cta": { "viewWork": "Pogledaj rad", "contact": "Kontakt" },
+    "meta": {
+      "location": "Serbia • DE/EN/SR",
+      "availability": "Open to opportunities"
+    },
+    "placeholders": {
+      "about": "Ovde ubaci kratku priču: Beč, jezik, poslovi, disciplina — i kako te je to oblikovalo.",
+      "projects": "Ovde stavi 3–6 projekata. Neka dev bude sekundarno, ali jasno i uredno.",
+      "contact": "Email / LinkedIn / GitHub linkovi ovde."
+    }
+  }
+}

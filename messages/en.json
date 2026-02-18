@@ -1,0 +1,41 @@
+{
+  "home": {
+    "name": "Lazar Vujović",
+    "role": "System & Network Engineer",
+    "heroLead": "This is not a perfect world.",
+    "heroLine2": "Systems fail. Deadlines are real.",
+    "heroLine3": "I work in that environment.",
+    "tagline1": "Infrastructure — by responsibility.",
+    "tagline2": "Development — by capability.",
+    "nav": {
+      "about": "More about me",
+      "experience": "Work experience",
+      "projects": "Projects",
+      "cv": "Download CV"
+    },
+    "cards": {
+      "about": {
+        "title": "About",
+        "desc": "A short story and the path that shaped me."
+      },
+      "exp": {
+        "title": "Experience",
+        "desc": "Sysadmin, networking, M365, virtualization, support."
+      },
+      "dev": {
+        "title": "Development",
+        "desc": "React / Next.js / RN as additional depth when needed."
+      }
+    },
+    "cta": { "viewWork": "Explore", "contact": "Contact" },
+    "meta": {
+      "location": "Serbia • DE/EN/SR",
+      "availability": "Open to opportunities"
+    },
+    "placeholders": {
+      "about": "Put your short story here: Vienna, language, jobs, discipline — and what you learned from it.",
+      "projects": "Show 3–6 projects. Keep dev secondary, but clear and well presented.",
+      "contact": "Put your email / LinkedIn / GitHub links here."
+    }
+  }
+}
