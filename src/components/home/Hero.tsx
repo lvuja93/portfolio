@@ -1,38 +1,54 @@
+'use client';
+
 import Link from 'next/link';
-import type { HomeT } from './Home';
+import { useLocale, useTranslations } from 'next-intl';
 import CardLink from '@/components/ui/CardLink';
 
-export default function Hero({ locale, t }: { locale: string; t: HomeT }) {
-  const bgUrl = '/me.jpg';
+export default function Hero() {
+  const locale = useLocale(); // "en" | "de"
+  const t = useTranslations('home'); // čita messages.<locale>.json -> home.*
 
   return (
     <section className="mx-auto w-full max-w-6xl px-5 pb-10 pt-6">
-      <div
-        className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900/30"
-        style={{
-          backgroundImage: `url(${bgUrl})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <div className="flex justify-center gap-3 p-4">
+        <div>
+          <div className="flex justify-center">
+            <img
+              src="/profile.jpg"
+              alt="profile"
+              className="h-20 w-auto rounded-[5rem]"
+            />
+          </div>
+          <div className="flex flex-col justify-center text-center">
+            <div className="text-sm font-semibold">
+              {t('name')} {t('lastName')}
+            </div>
+            <div className="text-xs text-zinc-600 dark:text-white">
+              {t('role')}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900/30">
         <div className="absolute inset-0 bg-white/70 backdrop-blur-[1px] dark:bg-zinc-950/70" />
 
         <div className="relative p-7 sm:p-10">
           <div className="flex flex-col gap-6">
             <div className="max-w-2xl">
               <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">
-                {t.heroLead}
+                {t('heroLead')}
               </h1>
 
               <p className="mt-4 text-base leading-relaxed text-zinc-800 dark:text-zinc-200 sm:text-lg">
-                {t.heroLine2}
+                {t('heroLine2')}
                 <br />
-                {t.heroLine3}
+                {t('heroLine3')}
               </p>
 
               <div className="mt-6 space-y-1 text-sm text-zinc-700 dark:text-zinc-300">
-                <div>{t.tagline1}</div>
-                <div>{t.tagline2}</div>
+                <div>{t('tagline1')}</div>
+                <div>{t('tagline2')}</div>
               </div>
 
               <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -40,14 +56,14 @@ export default function Hero({ locale, t }: { locale: string; t: HomeT }) {
                   href={`/${locale}#experience`}
                   className="rounded-2xl bg-zinc-900 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100"
                 >
-                  {t.cta.viewWork}
+                  {t('cta.viewWork')}
                 </Link>
 
                 <Link
                   href={`/${locale}#contact`}
                   className="rounded-2xl border border-zinc-300 bg-white/70 px-4 py-2 text-sm font-medium text-zinc-900 shadow-sm hover:bg-white dark:border-zinc-700 dark:bg-zinc-950/40 dark:text-zinc-100 dark:hover:bg-zinc-950/60"
                 >
-                  {t.cta.contact}
+                  {t('cta.contact')}
                 </Link>
 
                 <a
@@ -55,12 +71,12 @@ export default function Hero({ locale, t }: { locale: string; t: HomeT }) {
                   className="rounded-2xl border border-zinc-300 bg-white/70 px-4 py-2 text-sm font-medium text-zinc-900 shadow-sm hover:bg-white dark:border-zinc-700 dark:bg-zinc-950/40 dark:text-zinc-100 dark:hover:bg-zinc-950/60"
                   download
                 >
-                  {t.nav.cv}
+                  {t('nav.cv')}
                 </a>
 
                 <div className="ml-auto hidden flex-col items-end gap-1 text-xs text-zinc-600 dark:text-zinc-400 sm:flex">
-                  <div>{t.meta.location}</div>
-                  <div>{t.meta.availability}</div>
+                  <div>{t('meta.location')}</div>
+                  <div>{t('meta.availability')}</div>
                 </div>
               </div>
             </div>
@@ -68,18 +84,18 @@ export default function Hero({ locale, t }: { locale: string; t: HomeT }) {
             <div className="grid gap-4 pt-2 sm:grid-cols-3">
               <CardLink
                 href={`/${locale}#about`}
-                title={t.cards.about.title}
-                desc={t.cards.about.desc}
+                title={t('cards.about.title')}
+                desc={t('cards.about.desc')}
               />
               <CardLink
                 href={`/${locale}#experience`}
-                title={t.cards.exp.title}
-                desc={t.cards.exp.desc}
+                title={t('cards.exp.title')}
+                desc={t('cards.exp.desc')}
               />
               <CardLink
                 href={`/${locale}#projects`}
-                title={t.cards.dev.title}
-                desc={t.cards.dev.desc}
+                title={t('cards.dev.title')}
+                desc={t('cards.dev.desc')}
               />
             </div>
           </div>

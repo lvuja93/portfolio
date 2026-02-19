@@ -3,7 +3,7 @@
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 
-const LOCALES = ['sr', 'de', 'en'] as const;
+const LOCALES = ['de', 'en'] as const;
 
 export function LocaleSwitch() {
   const locale = useLocale();

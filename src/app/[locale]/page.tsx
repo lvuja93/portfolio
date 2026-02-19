@@ -1,5 +1,5 @@
 import Home from '@/components/home/Home';
-import { getMessages } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
 export default async function Page({
   params,
@@ -8,8 +8,8 @@ export default async function Page({
 }) {
   const { locale } = await params;
 
-  const messages = await getMessages();
-  const home = (messages as any).home;
+  // obavezno
+  setRequestLocale(locale);
 
-  return <Home locale={locale} t={home} />;
+  return <Home />;
 }

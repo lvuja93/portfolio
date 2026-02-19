@@ -1,6 +1,7 @@
 {
   "home": {
-    "name": "Lazar Vujović",
+    "name": "Lazar",
+    "lastName": " Vujović",
     "role": "System & Network Engineer",
     "heroLead": "This is not a perfect world.",
     "heroLine2": "Systems fail. Deadlines are real.",
