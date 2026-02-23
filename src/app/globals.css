@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-  --bg: 246 248 252;
+  --bg: 127 127 127;
   --fg: 10 15 25;
   --card: 255 255 255;
   --border: 220 228 245;
@@ -26,4 +26,5 @@ body {
 body {
   background: rgb(var(--bg));
   color: rgb(var(--fg));
+  font-family: var(--font-sans);
 }

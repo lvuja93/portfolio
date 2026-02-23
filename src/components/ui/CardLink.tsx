@@ -12,18 +12,37 @@ export default function CardLink({
   return (
     <Link
       href={href}
-      className="group rounded-3xl border border-zinc-200 bg-white/70 p-5 shadow-sm transition hover:-translate-y-0.5 hover:bg-white dark:border-zinc-800 dark:bg-zinc-950/35 dark:hover:bg-zinc-950/55"
+      className="
+        group relative overflow-hidden
+        rounded-3xl
+        border border-border/60
+        bg-card/30 backdrop-blur-xl
+        p-6
+        transition duration-300
+        hover:-translate-y-1
+        hover:border-border
+        hover:bg-card/40
+      "
     >
-      <div className="flex items-start justify-between gap-4">
+      {/* subtle glow */}
+      <div
+        className="
+        pointer-events-none absolute -top-20 left-1/2 h-40 w-40 -translate-x-1/2
+        rounded-full bg-fg/10 blur-3xl opacity-0
+        transition duration-300 group-hover:opacity-100
+      "
+      />
+
+      <div className="relative flex items-start justify-between gap-4">
         <div>
-          <div className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <div className="text-sm font-semibold tracking-tight text-fg">
             {title}
           </div>
-          <div className="mt-2 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-            {desc}
-          </div>
+
+          <div className="mt-2 text-sm leading-relaxed text-fg/70">{desc}</div>
         </div>
-        <span className="mt-0.5 text-zinc-400 transition group-hover:translate-x-0.5 dark:text-zinc-600">
+
+        <span className="mt-0.5 text-fg/40 transition group-hover:translate-x-1 group-hover:text-fg/70">
           →
         </span>
       </div>

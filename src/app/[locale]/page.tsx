@@ -1,15 +1,19 @@
-import Home from '@/components/home/Home';
-import { setRequestLocale } from 'next-intl/server';
+import TwoLanes from '@/components/sections/TwoLanes';
+import FeaturedProjects from '@/components/sections/FeaturedProjects';
+import Experience from '@/components/sections/Experience';
+import About from '@/components/sections/About';
+import Contact from '@/components/sections/Contact';
+import Hero from '@/components/home/Hero';
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
+export default function Page() {
+  return (
+    <>
+      <Hero />
+      <Experience />
+      <FeaturedProjects />
 
-  // obavezno
-  setRequestLocale(locale);
-
-  return <Home />;
+      <About />
+      <Contact />
+    </>
+  );
 }

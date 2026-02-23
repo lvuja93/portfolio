@@ -3,11 +3,11 @@
     "name": "Lazar",
     "lastName": " Vujović",
     "role": "System & Network Engineer",
-    "heroLead": "This is not a perfect world.",
-    "heroLine2": "Systems fail. Deadlines are real.",
-    "heroLine3": "I work in that environment.",
-    "tagline1": "Infrastructure — by responsibility.",
-    "tagline2": "Development — by capability.",
+    "heroLead": "Hi, I’m Lazar.",
+    "heroLine2": "I work as a System & Network Administrator, responsible for keeping complex server environments stable and operational. My daily work revolves around reliability, continuity and real-world responsibility.",
+    "heroLine3": "Alongside that, I build web applications with an understanding of how systems behave beyond the interface.",
+    "tagline1": "Systems fail — it’s an unavoidable part of the job.",
+    "tagline2": "My responsibility is to prevent what can be prevented and control what cannot.",
     "nav": {
       "about": "More about me",
       "experience": "Work experience",
@@ -16,16 +16,16 @@
     },
     "cards": {
       "about": {
-        "title": "About",
+        "title": "About me",
         "desc": "A short story and the path that shaped me."
       },
       "exp": {
         "title": "Experience",
-        "desc": "Sysadmin, networking, M365, virtualization, support."
+        "desc": "Networking, virtualisation, development."
       },
       "dev": {
-        "title": "Development",
-        "desc": "React / Next.js / RN as additional depth when needed."
+        "title": "Projects",
+        "desc": "Meet my projects"
       }
     },
     "cta": { "viewWork": "Explore", "contact": "Contact" },
@@ -37,6 +37,31 @@
       "about": "Put your short story here: Vienna, language, jobs, discipline — and what you learned from it.",
       "projects": "Show 3–6 projects. Keep dev secondary, but clear and well presented.",
       "contact": "Put your email / LinkedIn / GitHub links here."
+    },
+    "sections": {
+      "experience": {
+        "title": "Experience",
+        "subtitle": "Where i worked",
+        "seeall": "See more",
+        "items": {
+          "i1": {
+            "role": "System & Network Engineer",
+            "period": "2019 - present",
+            "company": "ITM GmbH - Rosenheim, Bayern, Germany",
+            "b1": "test",
+            "b2": "test",
+            "b3": "test"
+          },
+          "i2": {
+            "role": "System & Network Engineer",
+            "period": "2019 - present",
+            "company": "ITM GmbH - Rosenheim, Bayern, Deutschland",
+            "b1": "test",
+            "b2": "test",
+            "b3": "test"
+          }
+        }
+      }
     }
   }
 }
