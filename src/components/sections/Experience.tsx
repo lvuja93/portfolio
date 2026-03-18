@@ -39,11 +39,7 @@ export default function Experience() {
   const t = useTranslations('home');
 
   return (
-    <Section
-      id="experience"
-      title={t('sections.experience.title')}
-      subtitle={t('sections.experience.subtitle')}
-    >
+    <Section id="experience" title={t('sections.experience.title')}>
       <div className="rounded-3xl border border-border/40 bg-card/20 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px]">
         <div className="space-y-8 border-l border-border/60 pl-4">
           <Item

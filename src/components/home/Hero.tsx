@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import CardLink from '@/components/ui/CardLink';
+import { Linkedin, Github, Instagram, Download } from 'lucide-react';
 
 export default function Hero() {
   const locale = useLocale();
@@ -36,6 +37,65 @@ export default function Hero() {
                   />
                 </div>
               </div>
+              <div>
+                <div className="mt-3 flex flex-wrap items-center justify-center gap-1">
+                  <a
+                    href="https://www.linkedin.com/in/tvoj-linkedin"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="
+      inline-flex items-center gap-2
+      rounded-2xl bg-fg px-2 py-2 text-sm font-medium text-bg
+      transition 
+    "
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+
+                  <a
+                    href="https://github.com/tvoj-github"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="
+      inline-flex items-center gap-2
+      
+      bg-card/20 px-2 py-2 text-sm font-medium text-fg
+      
+    "
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/tvoj-instagram"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="
+      inline-flex items-center gap-2
+      
+      bg-card/20 px-2 py-2 text-sm font-medium text-fg
+      transition hover:bg-card/30
+    "
+                  >
+                    <Instagram className="h-5 w-5" />
+                  </a>
+                </div>
+              </div>
+              <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
+                <a
+                  href="/cv/Lazar-Vujovic-CV.pdf"
+                  download
+                  className="
+      inline-flex items-center gap-2
+      rounded-2xl border border-border/70
+      bg-card/20 px-4 py-2 text-sm font-medium text-fg
+      transition hover:bg-card/30
+    "
+                >
+                  <Download className="h-4 w-4" />
+                  <span>{t('nav.cv')}</span>
+                </a>
+              </div>
             </div>
 
             {/* TEXT — ISTI RASPORED */}
@@ -61,43 +121,6 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* CTA */}
-          <div className="mt-7 flex flex-wrap items-center gap-3">
-            <Link
-              href={`/${locale}#experience`}
-              className="
-                rounded-2xl bg-fg px-4 py-2 text-sm font-medium text-bg
-                transition hover:bg-fg/90
-                focus:outline-none focus:ring-2 focus:ring-fg/30
-              "
-            >
-              {t('cta.viewWork')}
-            </Link>
-
-            <Link
-              href={`/${locale}#contact`}
-              className="
-                rounded-2xl border border-border/70
-                bg-card/20 px-4 py-2 text-sm font-medium text-fg
-                transition hover:bg-card/30
-              "
-            >
-              {t('cta.contact')}
-            </Link>
-
-            <a
-              href="/cv/Lazar-Vujovic-CV.pdf"
-              className="
-                rounded-2xl border border-border/70
-                bg-card/20 px-4 py-2 text-sm font-medium text-fg
-                transition hover:bg-card/30
-              "
-              download
-            >
-              {t('nav.cv')}
-            </a>
           </div>
 
           {/* CARDS */}
