@@ -19,14 +19,16 @@ services:
       - 'traefik.enable=true'
       - 'traefik.docker.network=web'
 
-      - 'traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.regex=^https?://www\.lazarvujovic\.com/(.*)'
-      - 'traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.replacement=https://lazarvujovic.com/$${1}'
-      - 'traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.permanent=true'
+      # Middleware — jedinstven naziv
+      - "traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.regex=^https?://www\\.lazarvujovic\\.com/(.*)"
+      - 'traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.replacement=https://lazarvujovic.com/$1'
 
+      # Router — jedinstven
       - 'traefik.http.routers.lazarvujovic.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)'
       - 'traefik.http.routers.lazarvujovic.entrypoints=websecure'
       - 'traefik.http.routers.lazarvujovic.tls=true'
       - 'traefik.http.routers.lazarvujovic.tls.certresolver=myresolver'
       - 'traefik.http.routers.lazarvujovic.middlewares=lazarvujovic-wwwtoapex'
 
+      # Service — jedinstven
       - 'traefik.http.services.lazarvujovic.loadbalancer.server.port=3000'
