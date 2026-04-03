@@ -8,8 +8,9 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
-  if (!mounted)
-    return <div className="h-9 w-9 rounded-lg border border-border" />;
+  if (!mounted) {
+    return <div className="h-8 w-8 rounded-full bg-card/60" />;
+  }
 
   const current = theme === 'system' ? systemTheme : theme;
 
@@ -17,7 +18,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={() => setTheme(current === 'dark' ? 'light' : 'dark')}
-      className="h-9 w-9 rounded-lg border border-border bg-card/60 hover:bg-card transition"
+      className="flex h-8 w-8 items-center justify-center rounded-full bg-card/70 text-sm transition hover:bg-card"
       aria-label="Toggle theme"
       title="Theme"
     >

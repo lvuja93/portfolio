@@ -4,8 +4,8 @@
     "lastName": " Vujović",
     "role": "System & Network Engineer",
     "heroLead": "Hi, I’m Lazar.",
-    "heroLine2": "I work as a System & Network Administrator, responsible for keeping complex server environments stable and operational. My daily work revolves around reliability, continuity and real-world responsibility.",
-    "heroLine3": "Alongside that, I build web applications with an understanding of how systems behave beyond the interface.",
+    "heroLine2": "I work in environments where reliability matters. My background is rooted in IT infrastructure and managed services, with over 6 years of experience in Hyper-V-based Windows server environments, Microsoft 365, networking, and security.",
+    "heroLine3": "Alongside infrastructure, I also build web applications with modern JavaScript frameworks and continue to grow in automation and Infrastructure as Code with Terraform.",
     "tagline1": "Systems fail — it’s an unavoidable part of the job.",
     "tagline2": "My responsibility is to prevent what can be prevented and control what cannot.",
     "nav": {
@@ -47,20 +47,47 @@
           "i1": {
             "role": "System & Network Engineer",
             "period": "2019 - present",
-            "company": "ITM GmbH - Rosenheim, Bayern, Germany",
-            "b1": "test",
-            "b2": "test",
-            "b3": "test"
+            "company": "ITM GmbH (Rosenheim, Germany)",
+            "b1": "• Administration and maintenance of Hyper-V-based Windows server infrastructure for business customers.",
+            "b2": "• Management of Windows server environments including file servers, terminal servers, and related systems.",
+            "b3": "• Administration of firewall solutions such as Lancom and Sophos, as well as Veeam backup and recovery systems and IP telephony.",
+            "b4": "• Administration of Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive.",
+            "b5": "• Administration of Microsoft Azure and Entra ID, including identity, access, and user management.",
+            "b6": "• Daily analysis and resolution of more complex technical incidents in productive customer environments.",
+            "b7": "• Direct communication and technical support for business users, primarily in German."
           },
           "i2": {
-            "role": "System & Network Engineer",
-            "period": "2019 - present",
-            "company": "ITM GmbH - Rosenheim, Bayern, Deutschland",
-            "b1": "test",
-            "b2": "test",
-            "b3": "test"
+            "role": "Web development",
+            "period": "2023 - present",
+            "company": "Freelance",
+            "b1": "• Freelance development of web applications using modern JavaScript frameworks and tools.",
+            "b2": "• Design and implementation of solutions based on React, Vue, and Next.js.",
+            "b3": "• Deployment and maintenance of Docker-based Linux environments for development and production use.",
+            "b4": "• Provisioning and management of hosting environments on Hetzner and AWS.",
+            "b5": "• Ongoing expansion of expertise in automation and Infrastructure as Code, with a focus on Terraform."
           }
         }
+      },
+      "about": {
+        "title": "About me",
+        "body": {
+          "p1": "My name is Lazar Vujović, I am 32 years old, and I come from  Serbia, where I currently live and work. I spent a part of my life in Vienna, where I also studied Computer Science at the Technical University. I did not finish my studies, but that experience meant a lot to me, both professionally and personally, especially because I improved my German there and became familiar with that kind of work culture and business communication.",
+
+          "p2": "    At the moment, I work for the German company ITM, where my main focus is the administration and maintenance of Hyper-V Windows server infrastructure. This includes working with Windows servers such as file servers, terminal servers, and similar systems, as well as administering firewall solutions such as Lancom and Sophos, Veeam backup and recovery systems, and IP telephony.",
+
+          "p3": "In addition to that, I also manage Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive. Alongside the infrastructure side of the job, I am also involved on a daily basis in resolving more complex incidents and communicating directly with business users, mainly in German.",
+
+          "p4": "Besides my regular job, I also work independently on web application development. I mainly work in the JavaScript ecosystem, using technologies such as React, Vue, and Next.js, and I usually implement Docker-based Linux environments myself, using Hetzner or AWS. Recently, I have also become very interested in Terraform and Infrastructure as Code, because I want to further expand my knowledge in the direction of automation and modern infrastructure management."
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "ctaTitle": "Have a project, role, or technical challenge in mind?",
+        "ctaDesc": "Feel free to reach out if you'd like to discuss infrastructure, systems, operations, or selected web projects.",
+        "email": "contact@lazarvujovic.com",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
       }
     }
   }

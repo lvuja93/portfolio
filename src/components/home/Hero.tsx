@@ -10,7 +10,7 @@ export default function Hero() {
   const t = useTranslations('home');
 
   return (
-    <section className="mx-auto w-full max-w-6xl px-2 pb-10">
+    <section className="mx-auto w-full max-w-6xl px-2 ">
       <div
         className="
         relative overflow-hidden rounded-3xl
@@ -18,8 +18,10 @@ export default function Hero() {
         bg-card/10
         backdrop-blur-[2px]
         sm:backdrop-blur-[6px]
+        mx-2
       "
       >
+        <div className="fixed"></div>
         {/* subtle inner hairline */}
         <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset ring-white/5" />
 
@@ -40,7 +42,7 @@ export default function Hero() {
               <div>
                 <div className="mt-3 flex flex-wrap items-center justify-center gap-1">
                   <a
-                    href="https://www.linkedin.com/in/tvoj-linkedin"
+                    href="https://www.linkedin.com/in/lazar-vujović-a148a98b/"
                     target="_blank"
                     rel="noreferrer"
                     className="
@@ -53,7 +55,7 @@ export default function Hero() {
                   </a>
 
                   <a
-                    href="https://github.com/tvoj-github"
+                    href="https://github.com/lvuja93"
                     target="_blank"
                     rel="noreferrer"
                     className="
@@ -67,7 +69,7 @@ export default function Hero() {
                   </a>
 
                   <a
-                    href="https://www.instagram.com/tvoj-instagram"
+                    href="https://www.instagram.com/l_vuja/"
                     target="_blank"
                     rel="noreferrer"
                     className="
@@ -83,7 +85,11 @@ export default function Hero() {
               </div>
               <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
                 <a
-                  href="/cv/Lazar-Vujovic-CV.pdf"
+                  href={
+                    locale === 'de'
+                      ? '/cv/Lazar-Vujovic-CV-DE.pdf'
+                      : '/cv/Lazar-Vujovic-CV-EN.pdf'
+                  }
                   download
                   className="
       inline-flex items-center gap-2
@@ -101,7 +107,7 @@ export default function Hero() {
             {/* TEXT — ISTI RASPORED */}
             <div className="col-span-5">
               <div className="flex justify-center md:justify-start">
-                <div className="max-w-3xl">
+                <div className="max-w-3xl pt-8 sm:pt-2">
                   <h1 className="text-2xl font-semibold tracking-tight text-fg sm:text-3xl">
                     {t('heroLead')}
                   </h1>
@@ -123,7 +129,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* CARDS */}
+          {/* CARDS 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             <CardLink
               href={`/${locale}#about`}
@@ -141,6 +147,7 @@ export default function Hero() {
               desc={t('cards.dev.desc')}
             />
           </div>
+          */}
         </div>
       </div>
     </section>

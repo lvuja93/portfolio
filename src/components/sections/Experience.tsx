@@ -39,8 +39,11 @@ export default function Experience() {
   const t = useTranslations('home');
 
   return (
-    <Section id="experience" title={t('sections.experience.title')}>
-      <div className="rounded-3xl border border-border/40 bg-card/20 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px]">
+    <Section
+      id="experience"
+      title={<span className="pl-8">{t('sections.experience.title')}</span>}
+    >
+      <div className="rounded-3xl border border-border/40 bg-card/10 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px] mx-2 md:mx-0">
         <div className="space-y-8 border-l border-border/60 pl-4">
           <Item
             role={t('sections.experience.items.i1.role')}
@@ -50,6 +53,10 @@ export default function Experience() {
               t('sections.experience.items.i1.b1'),
               t('sections.experience.items.i1.b2'),
               t('sections.experience.items.i1.b3'),
+              t('sections.experience.items.i1.b4'),
+              t('sections.experience.items.i1.b5'),
+              t('sections.experience.items.i1.b6'),
+              t('sections.experience.items.i1.b7'),
             ]}
           />
           <Item
@@ -59,16 +66,13 @@ export default function Experience() {
             bullets={[
               t('sections.experience.items.i2.b1'),
               t('sections.experience.items.i2.b2'),
+              t('sections.experience.items.i2.b3'),
+              t('sections.experience.items.i2.b4'),
+              t('sections.experience.items.i2.b5'),
             ]}
           />
         </div>
       </div>
-      <Link
-        href={`/${locale}#projects`}
-        className="inline-flex items-center gap-2 rounded-2xl border border-border/70 bg-card/10 px-4 py-2 text-sm font-medium text-fg transition hover:bg-card/20 mt-6"
-      >
-        {t('sections.experience.seeall')} →
-      </Link>
     </Section>
   );
 }

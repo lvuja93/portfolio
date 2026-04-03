@@ -1,6 +1,6 @@
 // app/[locale]/layout.tsx
 import type { ReactNode } from 'react';
-import Header from '@/components/header';
+import FloatingControls from '@/components/FloatingControls';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 
@@ -13,15 +13,15 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // zakuca locale za ovaj request (bitno!)
   setRequestLocale(locale);
-
   const messages = await getMessages();
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
-      <main className="w-full pb-16">{children}</main>
+      <main className="w-full pt-6 sm:pt-8">
+        <FloatingControls />
+        {children}
+      </main>
     </NextIntlClientProvider>
   );
 }

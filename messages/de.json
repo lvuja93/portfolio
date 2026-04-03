@@ -4,8 +4,8 @@
     "lastName": " Vujović",
     "role": "System & Network Engineer",
     "heroLead": "Hi, ich bin Lazar.",
-    "heroLine2": "Ich arbeite als System- und Netzwerkadministrator und bin verantwortlich für den stabilen und zuverlässigen Betrieb komplexer Serverumgebungen. Meine tägliche Arbeit dreht sich um Verfügbarkeit, Kontinuität und reale Verantwortung.",
-    "heroLine3": "Parallel dazu entwickle ich Webanwendungen mit einem klaren Verständnis dafür, wie Systeme jenseits der Oberfläche funktionieren.",
+    "heroLine2": "Ich arbeite in Umgebungen, in denen Zuverlässigkeit eine zentrale Rolle spielt. Mein beruflicher Hintergrund liegt in der IT-Infrastruktur und im Managed-Services-Bereich, mit über 6 Jahren Erfahrung in Hyper-V-basierten Windows-Server-Umgebungen, Microsoft 365, Netzwerken und Sicherheitslösungen.",
+    "heroLine3": "Darüber hinaus entwickle ich Webanwendungen mit modernen JavaScript-Frameworks und erweitere mein Know-how kontinuierlich in den Bereichen Automatisierung und Infrastructure as Code mit Terraform.",
     "tagline1": "Systeme fallen aus – das gehört zur Realität.",
     "tagline2": "Meine Aufgabe ist es, vermeidbare Risiken zu reduzieren und Unvermeidbares kontrolliert zu handhaben.",
     "nav": {
@@ -40,27 +40,54 @@
     },
     "sections": {
       "experience": {
-        "title": "Experience",
+        "title": "Erfahrung",
         "subtitle": "Where i worked",
         "seeall": "See more",
         "items": {
           "i1": {
             "role": "System & Network Engineer",
             "period": "2019 - present",
-            "company": "ITM GmbH - Rosenheim, Bayern, Deutschland",
-            "b1": "test",
-            "b2": "test",
-            "b3": "test"
+            "company": "ITM GmbH (Rosenheim, Deutschland)",
+            "b1": "• Administration und Betreuung von Hyper-V-basierten Windows-Server-Infrastrukturen für Geschäftskunden.",
+            "b2": "• Verwaltung von Windows-Server-Umgebungen, einschließlich File- und Terminalservern sowie verwandter Systeme.",
+            "b3": "• Administration von Firewall-Lösungen wie Lancom und Sophos sowie von Veeam Backup-&-Recovery-Systemen und IP-Telefonie.",
+            "b4": "• Betreuung von Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive.",
+            "b5": "• Administration von Azure-nahen Diensten und Entra ID, einschließlich Benutzer-, Gruppen- und Zugriffsverwaltung.",
+            "b6": "• Tägliche Analyse und nachhaltige Lösung komplexerer technischer Störungen in produktiven Kundenumgebungen.",
+            "b7": "• Direkte Kommunikation und technische Unterstützung für Geschäftskunden, überwiegend in deutscher Sprache."
           },
           "i2": {
-            "role": "System & Network Engineer",
-            "period": "2019 - present",
-            "company": "ITM GmbH - Rosenheim, Bayern, Deutschland",
-            "b1": "test",
-            "b2": "test",
-            "b3": "test"
+            "role": "Webentwicklung",
+            "period": "2023 - present",
+            "company": "Freiberuflich",
+            "b1": "• Eigenständige Entwicklung von Webanwendungen mit Fokus auf moderne JavaScript-Technologien.",
+            "b2": "• Konzeption und Umsetzung von Frontend- und Full-Stack-Lösungen mit React, Vue und Next.js.",
+            "b3": "• Einrichtung und Deployment Docker-basierter Linux-Umgebungen für Webanwendungen.",
+            "b4": "• Bereitstellung und Verwaltung von Hosting-Umgebungen auf Plattformen wie Hetzner und AWS.",
+            "b5": "• Kontinuierlicher Ausbau meiner Kenntnisse in den Bereichen Automatisierung, Infrastructure as Code mit Terraform."
           }
         }
+      },
+      "about": {
+        "title": "Über mich",
+        "body": {
+          "p1": "Mein Name ist Lazar Vujović, ich bin 32 Jahre alt und komme aus Serbien, wo ich derzeit lebe und arbeite. Einen Teil meines Lebens habe ich in Wien verbracht, wo ich auch Informatik an der Technischen Universität studiert habe. Mein Studium habe ich zwar nicht abgeschlossen, aber diese Erfahrung hat mir sowohl beruflich als auch persönlich sehr viel bedeutet, vor allem weil ich dort mein Deutsch deutlich verbessert habe und mich an diese Art der Arbeitsweise und Geschäftskommunikation gewöhnt habe.",
+
+          "p2": "Zurzeit arbeite ich für das deutsche Unternehmen ITM, wo mein Schwerpunkt auf der Administration und Wartung von Hyper-V- und Windows-Server-Infrastrukturen liegt. Dazu gehört die Arbeit mit Windows-Servern wie File-Servern, Terminal-Servern und ähnlichen Systemen, ebenso wie die Administration von Firewall-Lösungen wie Lancom und Sophos, Veeam Backup- und Recovery-Systemen sowie IP-Telefonie.",
+
+          "p3": "Darüber hinaus administriere ich auch Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive. Neben dem infrastrukturellen Bereich bin ich täglich auch in die Lösung komplexerer Incidents und in die direkte Kommunikation mit Geschäftskunden eingebunden, überwiegend auf Deutsch.",
+
+          "p4": "Neben meiner regulären Tätigkeit beschäftige ich mich auch selbstständig mit der Entwicklung von Webanwendungen. Ich arbeite hauptsächlich im JavaScript-Umfeld mit Technologien wie React, Vue und Next.js und setze Docker-basierte Linux-Umgebungen in der Regel selbst um, unter anderem mit Hetzner oder AWS. In letzter Zeit interessiere ich mich außerdem sehr für Terraform beziehungsweise Infrastructure as Code, weil ich mein Wissen im Bereich Automatisierung und modernes Infrastrukturmanagement weiter ausbauen möchte."
+        }
+      },
+      "contact": {
+        "title": "Kontakt",
+        "ctaTitle": "Haben Sie ein Projekt, eine Position oder eine technische Herausforderung im Sinn?",
+        "ctaDesc": "Kontaktieren Sie mich gerne, wenn Sie über Infrastruktur, Systeme, IT-Betrieb oder ausgewählte Webprojekte sprechen möchten.",
+        "email": "contact@lazarvujovic.com",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
       }
     }
   }

@@ -9,26 +9,22 @@ export default function About() {
   return (
     <Section
       id="about"
-      title={t('sections.about.title')}
-      subtitle={t('sections.about.subtitle')}
+      title={<span className="pl-8">{t('sections.about.title')}</span>}
     >
-      <div className="grid gap-4 lg:grid-cols-3">
-        <div className="lg:col-span-2 rounded-3xl border border-border/60 bg-card/10 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px]">
+      <div className="mx-2">
+        <div className="lg:col-span-2 rounded-3xl border border-border/70 bg-card/60 p-6 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur-md">
           <p className="text-sm leading-relaxed text-fg/80">
-            {t('sections.about.body')}
+            {t('sections.about.body.p1')}
           </p>
-        </div>
-
-        <div className="rounded-3xl border border-border/60 bg-card/10 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px]">
-          <div className="text-sm font-semibold text-fg">
-            {t('sections.about.valuesTitle')}
-          </div>
-          <ul className="mt-3 space-y-2 text-sm text-fg/75">
-            <li>• {t('sections.about.v1')}</li>
-            <li>• {t('sections.about.v2')}</li>
-            <li>• {t('sections.about.v3')}</li>
-            <li>• {t('sections.about.v4')}</li>
-          </ul>
+          <p className="pt-2 text-sm leading-relaxed text-fg/80">
+            {t('sections.about.body.p2')}
+          </p>
+          <p className="pt-2 text-sm leading-relaxed text-fg/80">
+            {t('sections.about.body.p3')}
+          </p>
+          <p className="pt-2 text-sm leading-relaxed text-fg/80">
+            {t('sections.about.body.p4')}
+          </p>
         </div>
       </div>
     </Section>

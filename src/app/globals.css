@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-  --bg: 127 127 127;
+  --bg: 248 249 250;
   --fg: 10 15 25;
   --card: 255 255 255;
   --border: 220 228 245;
