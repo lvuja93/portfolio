@@ -7,11 +7,18 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
 FROM node:20-alpine AS runner
 WORKDIR /app
-RUN npm install -g serve
-COPY --from=builder /app/dist ./dist
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+ENV PORT=3000
+
+COPY --from=builder /app ./
+
 EXPOSE 3000
-CMD ["serve", "-s", "dist", "-l", "3000"]
+
+CMD ["npm", "run", "start"]

@@ -1,6 +1,21 @@
-import type { HomeT } from './Home';
 import SectionTitle from '@/components/ui/SectionTitle';
 import MiniBlock from '@/components/ui/MiniBlock';
+
+type HomeT = {
+  nav: {
+    about: string;
+    experience: string;
+    projects: string;
+  };
+  cta: {
+    contact: string;
+  };
+  placeholders: {
+    about: string;
+    projects: string;
+    contact: string;
+  };
+};
 
 export default function Sections({ t }: { t: HomeT }) {
   return (
