@@ -16,19 +16,19 @@ services:
     networks:
       - web
     labels:
-      - 'traefik.enable=true'
-      - 'traefik.docker.network=web'
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
 
-      # Middleware — jedinstven naziv
-      - "traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.regex=^https?://www\\.lazarvujovic\\.com/(.*)"
-      - 'traefik.http.middlewares.lazarvujovic-wwwtoapex.redirectregex.replacement=https://lazarvujovic.com/$1'
+      - "traefik.http.services.lazarvujovic.loadbalancer.server.port=3000"
 
-      # Router — jedinstven
-      - 'traefik.http.routers.lazarvujovic.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)'
-      - 'traefik.http.routers.lazarvujovic.entrypoints=websecure'
-      - 'traefik.http.routers.lazarvujovic.tls=true'
-      - 'traefik.http.routers.lazarvujovic.tls.certresolver=myresolver'
-      - 'traefik.http.routers.lazarvujovic.middlewares=lazarvujovic-wwwtoapex'
+      - "traefik.http.routers.lazarvujovic.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)"
+      - "traefik.http.routers.lazarvujovic.entrypoints=websecure"
+      - "traefik.http.routers.lazarvujovic.tls=true"
+      - "traefik.http.routers.lazarvujovic.tls.certresolver=myresolver"
 
-      # Service — jedinstven
-      - 'traefik.http.services.lazarvujovic.loadbalancer.server.port=3000'
+      - "traefik.http.routers.lazarvujovic-http.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)"
+      - "traefik.http.routers.lazarvujovic-http.entrypoints=web"
+      - "traefik.http.routers.lazarvujovic-http.middlewares=lazarvujovic-httpsredirect"
+
+      - "traefik.http.middlewares.lazarvujovic-httpsredirect.redirectscheme.scheme=https"
+     - "traefik.http.middlewares.lazarvujovic-httpsredirect.redirectscheme.permanent=true"
