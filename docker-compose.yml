@@ -1,34 +1,9 @@
 version: '3.8'
 
-networks:
-  web:
-    external: true
-
 services:
-  webapp:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: lazarvujovic
-    restart: unless-stopped
-    expose:
-      - '3000'
-    networks:
-      - web
-    labels:
-      - "traefik.enable=true"
-      - "traefik.docker.network=web"
-
-      - "traefik.http.services.lazarvujovic.loadbalancer.server.port=3000"
-
-      - "traefik.http.routers.lazarvujovic.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)"
-      - "traefik.http.routers.lazarvujovic.entrypoints=websecure"
-      - "traefik.http.routers.lazarvujovic.tls=true"
-      - "traefik.http.routers.lazarvujovic.tls.certresolver=myresolver"
-
-      - "traefik.http.routers.lazarvujovic-http.rule=Host(`lazarvujovic.com`,`www.lazarvujovic.com`)"
-      - "traefik.http.routers.lazarvujovic-http.entrypoints=web"
-      - "traefik.http.routers.lazarvujovic-http.middlewares=lazarvujovic-httpsredirect"
-
-      - "traefik.http.middlewares.lazarvujovic-httpsredirect.redirectscheme.scheme=https"
-     - "traefik.http.middlewares.lazarvujovic-httpsredirect.redirectscheme.permanent=true"
+  web:
+    build: .
+    container_name: nextjs_app
+    restart: always
+    ports:
+      - '127.0.0.1:3005:3000' # Vidljivo samo tvom lokalnom Nginx-u, skriveno od spoljnog interneta
