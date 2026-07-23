@@ -57,6 +57,9 @@ export default function Experience() {
               t('sections.experience.items.i1.b5'),
               t('sections.experience.items.i1.b6'),
               t('sections.experience.items.i1.b7'),
+              t('sections.experience.items.i1.b8'),
+              t('sections.experience.items.i1.b9'),
+              t('sections.experience.items.i1.b10'),
             ]}
           />
           <Item
@@ -69,6 +72,8 @@ export default function Experience() {
               t('sections.experience.items.i2.b3'),
               t('sections.experience.items.i2.b4'),
               t('sections.experience.items.i2.b5'),
+              t('sections.experience.items.i2.b6'),
+              t('sections.experience.items.i2.b7'),
             ]}
           />
         </div>

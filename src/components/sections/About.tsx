@@ -22,9 +22,6 @@ export default function About() {
           <p className="pt-2 text-sm leading-relaxed text-fg/80">
             {t('sections.about.body.p3')}
           </p>
-          <p className="pt-2 text-sm leading-relaxed text-fg/80">
-            {t('sections.about.body.p4')}
-          </p>
         </div>
       </div>
     </Section>
