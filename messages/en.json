@@ -4,8 +4,8 @@
     "lastName": " Vujović",
     "role": "System & Network Engineer",
     "heroLead": "Hi, I’m Lazar.",
-    "heroLine2": "I work in environments where reliability matters. My background is rooted in IT infrastructure and managed services, with over 6 years of experience in Hyper-V-based Windows server environments, Microsoft 365, networking, and security.",
-    "heroLine3": "Alongside infrastructure, I also build web applications with modern JavaScript frameworks and continue to grow in automation and Infrastructure as Code with Terraform.",
+    "heroLine2": "I work in environments where reliability matters. My background is rooted in IT infrastructure and managed services, with over 6 years of experience in Windows and Linux server environments, networking, and security.",
+    "heroLine3": "Alongside infrastructure, I actively build web applications using React, Next.js, Vue, and Node.js/PostgreSQL, combining system administration with modern software development, Docker containerization, and Infrastructure as Code with Terraform.",
     "tagline1": "Systems fail — it’s an unavoidable part of the job.",
     "tagline2": "My responsibility is to prevent what can be prevented and control what cannot.",
     "nav": {
@@ -48,36 +48,39 @@
             "role": "System & Network Administrator",
             "period": "2019 - present",
             "company": "ITM GmbH (Rosenheim, Germany)",
-            "b1": "• Administration and maintenance of Hyper-V-based Windows server infrastructure for business customers.",
-            "b2": "• Management of Windows server environments including file servers, terminal servers, and related systems.",
-            "b3": "• Administration of firewall solutions such as Lancom and Sophos, as well as Veeam backup and recovery systems and IP telephony.",
-            "b4": "• Administration of Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive.",
-            "b5": "• Administration of Microsoft Azure and Entra ID, including identity, access, and user management.",
-            "b6": "• Daily analysis and resolution of more complex technical incidents in productive customer environments.",
-            "b7": "• Direct communication and technical support for business users, primarily in German."
+            "b1": "• Administration and maintenance of Hyper-V-based Windows server infrastructure and Linux systems for business customers.",
+            "b2": "• Administration and setup of Linux web and database servers.",
+            "b3": "• Writing Bash and PowerShell scripts to automate routine system tasks and deployments.",
+            "b4": "• Managing Docker containers for hosting applications and internal services.",
+            "b5": "• Management of Windows server environments including file servers, terminal servers, and related systems.",
+            "b6": "• Administration of firewall solutions such as Lancom and Sophos, as well as Veeam backup and recovery systems and IP telephony.",
+            "b7": "• Administration of Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive.",
+            "b8": "• Administration of Microsoft Azure and Entra ID, including identity, access, and user management.",
+            "b9": "• Daily analysis and resolution of more complex technical incidents in productive customer environments.",
+            "b10": "• Direct communication and technical support for business users, primarily in German."
           },
           "i2": {
             "role": "Web development",
             "period": "2023 - present",
             "company": "Freelance",
-            "b1": "• Freelance development of web applications using modern JavaScript frameworks and tools.",
-            "b2": "• Design and implementation of solutions based on React, Vue, and Next.js.",
-            "b3": "• Deployment and maintenance of Docker-based Linux environments for development and production use.",
-            "b4": "• Provisioning and management of hosting environments on Hetzner and AWS.",
-            "b5": "• Ongoing expansion of expertise in automation and Infrastructure as Code, with a focus on Terraform."
+            "b1": "• Freelance development of full-stack web applications using modern JavaScript/TypeScript frameworks.",
+            "b2": "• Design and implementation of responsive frontend interfaces based on React, Vue, and Next.js.",
+            "b3": "• Development and integration of RESTful APIs, backend services, and PostgreSQL databases.",
+            "b4": "• Deployment and maintenance of Docker-based Linux environments for development and production use.",
+            "b5": "• Setting up automated CI/CD pipelines (GitHub Actions) for seamless application deployment.",
+            "b6": "• Provisioning and management of hosting infrastructure on Hetzner and AWS.",
+            "b7": "• Ongoing expansion of expertise in automation and Infrastructure as Code, with a focus on Terraform."
           }
         }
       },
       "about": {
         "title": "About me",
         "body": {
-          "p1": "My name is Lazar Vujović, I am 32 years old, and I come from  Serbia, where I currently live and work. I spent a part of my life in Vienna, where I also studied Computer Science at the Technical University. I did not finish my studies, but that experience meant a lot to me, both professionally and personally, especially because I improved my German there and became familiar with that kind of work culture and business communication.",
+          "p1": "My name is Lazar Vujović, I am 32 years old, and I live in Serbia. I hold a Bachelor of Applied Sciences degree in Business Informatics from the Business School of Applied Sciences. Earlier in my education, I also spent time in Vienna studying Computer Science at the Technical University of Vienna, which was a valuable experience that helped me master the German language and adapt to Western business culture.",
 
-          "p2": "    At the moment, I work for the German company ITM, where my main focus is the administration and maintenance of Hyper-V Windows server infrastructure. This includes working with Windows servers such as file servers, terminal servers, and similar systems, as well as administering firewall solutions such as Lancom and Sophos, Veeam backup and recovery systems, and IP telephony.",
+          "p2": "    Currently, I work for the German company ITM GmbH as a System & Network Administrator. My core responsibilities include managing Windows (Hyper-V) and Linux server environments, handling Linux web/database servers, automating tasks with Bash and PowerShell, and managing Dockerized services. I also administer firewall systems (Sophos, Lancom), Veeam backups, IP telephony, and Microsoft 365 / Azure / Entra ID ecosystems, alongside providing Tier 2/3 technical support directly in German.",
 
-          "p3": "In addition to that, I also manage Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive. Alongside the infrastructure side of the job, I am also involved on a daily basis in resolving more complex incidents and communicating directly with business users, mainly in German.",
-
-          "p4": "Besides my regular job, I also work independently on web application development. I mainly work in the JavaScript ecosystem, using technologies such as React, Vue, and Next.js, and I usually implement Docker-based Linux environments myself, using Hetzner or AWS. Recently, I have also become very interested in Terraform and Infrastructure as Code, because I want to further expand my knowledge in the direction of automation and modern infrastructure management."
+          "p3": "Alongside my primary job, I work as a freelance web application developer. I build applications using modern JavaScript/TypeScript frameworks like React, Vue, and Next.js, backed by PostgreSQL. I deploy and maintain these systems on Docker-based Linux infrastructure across Hetzner and AWS, while actively implementing Infrastructure as Code with Terraform."
         }
       },
       "contact": {

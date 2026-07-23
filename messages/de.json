@@ -4,9 +4,9 @@
     "lastName": " Vujović",
     "role": "System & Network Engineer",
     "heroLead": "Hi, ich bin Lazar.",
-    "heroLine2": "Ich arbeite in Umgebungen, in denen Zuverlässigkeit eine zentrale Rolle spielt. Mein beruflicher Hintergrund liegt in der IT-Infrastruktur und im Managed-Services-Bereich, mit über 6 Jahren Erfahrung in Hyper-V-basierten Windows-Server-Umgebungen, Microsoft 365, Netzwerken und Sicherheitslösungen.",
-    "heroLine3": "Darüber hinaus entwickle ich Webanwendungen mit modernen JavaScript-Frameworks und erweitere mein Know-how kontinuierlich in den Bereichen Automatisierung und Infrastructure as Code mit Terraform.",
-    "tagline1": "Systeme fallen aus – das gehört zur Realität.",
+    "heroLine2": "Ich arbeite in Umgebungen, in denen Zuverlässigkeit zählt. Mein Schwerpunkt liegt in der IT-Infrastruktur und in Managed Services mit über 6 Jahren Erfahrung in Windows- und Linux-Serverumgebungen, Netzwerken und IT-Sicherheit.",
+    "heroLine3": "Neben der Infrastruktur entwickle ich aktiv Webanwendungen mit React, Next.js, Vue und Node.js/PostgreSQL und verbinde Systemadministration mit moderner Softwareentwicklung, Docker-Containerisierung und Infrastructure as Code (Terraform).",
+    "tagline1": "Systeme fallen aus — das ist ein unvermeidbarer Teil des Jobs.",
     "tagline2": "Meine Aufgabe ist es, vermeidbare Risiken zu reduzieren und Unvermeidbares kontrolliert zu handhaben.",
     "nav": {
       "about": "Mehr über mich",
@@ -48,36 +48,39 @@
             "role": "System & Network Administrator",
             "period": "2019 - present",
             "company": "ITM GmbH (Rosenheim, Deutschland)",
-            "b1": "• Administration und Betreuung von Hyper-V-basierten Windows-Server-Infrastrukturen für Geschäftskunden.",
-            "b2": "• Verwaltung von Windows-Server-Umgebungen, einschließlich File- und Terminalservern sowie verwandter Systeme.",
-            "b3": "• Administration von Firewall-Lösungen wie Lancom und Sophos sowie von Veeam Backup-&-Recovery-Systemen und IP-Telefonie.",
-            "b4": "• Betreuung von Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive.",
-            "b5": "• Administration von Azure-nahen Diensten und Entra ID, einschließlich Benutzer-, Gruppen- und Zugriffsverwaltung.",
-            "b6": "• Tägliche Analyse und nachhaltige Lösung komplexerer technischer Störungen in produktiven Kundenumgebungen.",
-            "b7": "• Direkte Kommunikation und technische Unterstützung für Geschäftskunden, überwiegend in deutscher Sprache."
+            "b1": "• Administration und Betreuung von Hyper-V-basierten Windows Server-Infrastrukturen sowie Linux-Systemen für Geschäftskunden.",
+            "b2": "• Administration und Einrichtung von Linux Web- und Datenbankservern.",
+            "b3": "• Erstellung von Bash- und PowerShell-Skripten zur Automatisierung von Routineaufgaben und Deployments.",
+            "b4": "• Verwaltung von Docker-Containern für das Hosting von Anwendungen und internen Diensten.",
+            "b5": "• Verwaltung von Windows Server-Umgebungen, einschließlich File- und Terminalservern sowie verwandter Systeme.",
+            "b6": "• Administration von Firewall-Lösungen wie Lancom und Sophos sowie von Veeam Backup- & Recovery-Systemen und IP-Telefonie.",
+            "b7": "• Betreuung von Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive.",
+            "b8": "• Administration von Microsoft Azure und Entra ID, einschließlich Benutzer-, Gruppen- und Zugriffsverwaltung.",
+            "b9": "• Tägliche Analyse und nachhaltige Lösung komplexerer technischer Störungen in produktiven Kundenumgebungen.",
+            "b10": "• Direkte Kommunikation und technische Unterstützung für Geschäftskunden, überwiegend in deutscher Sprache."
           },
           "i2": {
             "role": "Webentwicklung",
             "period": "2023 - present",
             "company": "Freiberuflich",
-            "b1": "• Eigenständige Entwicklung von Webanwendungen mit Fokus auf moderne JavaScript-Technologien.",
-            "b2": "• Konzeption und Umsetzung von Frontend- und Full-Stack-Lösungen mit React, Vue und Next.js.",
-            "b3": "• Einrichtung und Deployment Docker-basierter Linux-Umgebungen für Webanwendungen.",
-            "b4": "• Bereitstellung und Verwaltung von Hosting-Umgebungen auf Plattformen wie Hetzner und AWS.",
-            "b5": "• Kontinuierlicher Ausbau meiner Kenntnisse in den Bereichen Automatisierung, Infrastructure as Code mit Terraform."
+            "b1": "• Freiberufliche Entwicklung von Full-Stack-Webanwendungen mit modernen JavaScript/TypeScript-Frameworks.",
+            "b2": "• Konzeption und Umsetzung von responsiven Frontend-Schnittstellen auf Basis von React, Vue und Next.js.",
+            "b3": "• Entwicklung und Integration von RESTful APIs, Backend-Diensten und PostgreSQL-Datenbanken.",
+            "b4": "• Bereitstellung und Wartung Docker-basierter Linux-Umgebungen für Entwicklungs- und Produktionszwecke.",
+            "b5": "• Einrichtung automatisierter CI/CD-Pipelines (GitHub Actions) für nahtlose Anwendungs-Deployments.",
+            "b6": "• Bereitstellung und Verwaltung von Hosting-Infrastrukturen auf Hetzner und AWS.",
+            "b7": "• Kontinuierlicher Ausbau von Kenntnissen in den Bereichen Automatisierung und Infrastructure as Code mit Fokus auf Terraform."
           }
         }
       },
       "about": {
         "title": "Über mich",
         "body": {
-          "p1": "Mein Name ist Lazar Vujović, ich bin 32 Jahre alt und komme aus Serbien, wo ich derzeit lebe und arbeite. Einen Teil meines Lebens habe ich in Wien verbracht, wo ich auch Informatik an der Technischen Universität studiert habe. Mein Studium habe ich zwar nicht abgeschlossen, aber diese Erfahrung hat mir sowohl beruflich als auch persönlich sehr viel bedeutet, vor allem weil ich dort mein Deutsch deutlich verbessert habe und mich an diese Art der Arbeitsweise und Geschäftskommunikation gewöhnt habe.",
+          "p1": "Mein Name ist Lazar Vujović, ich bin 32 Jahre alt und lebe in Serbien. Ich habe mein Studium als Bachelor of Applied Sciences in Wirtschaftsinformatik an der Fachhochschule für Wirtschaft abgeschlossen. Zuvor habe ich zudem einige Zeit in Wien verbracht und Informatik an der Technischen Universität Wien studiert – eine wertvolle Erfahrung, die mir besonders dabei geholfen hat, die deutsche Sprache zu festigen und mich an die westliche Arbeitskultur anzupassen.",
 
-          "p2": "Zurzeit arbeite ich für das deutsche Unternehmen ITM, wo mein Schwerpunkt auf der Administration und Wartung von Hyper-V- und Windows-Server-Infrastrukturen liegt. Dazu gehört die Arbeit mit Windows-Servern wie File-Servern, Terminal-Servern und ähnlichen Systemen, ebenso wie die Administration von Firewall-Lösungen wie Lancom und Sophos, Veeam Backup- und Recovery-Systemen sowie IP-Telefonie.",
+          "p2": "Derzeit arbeite ich für das deutsche Unternehmen ITM GmbH als System & Network Administrator. Zu meinen Hauptaufgaben gehören die Verwaltung von Windows (Hyper-V) und Linux-Serverumgebungen, die Betreuung von Linux Web- und Datenbankservern, die Automatisierung von Prozessen mittels Bash und PowerShell sowie die Verwaltung von Docker-Diensten. Zudem betreue ich Firewall-Systeme (Sophos, Lancom), Veeam-Backups, IP-Telefonie und das Microsoft 365 / Azure / Entra ID-Ökosystem und biete direkten technischen Support auf Deutsch.",
 
-          "p3": "Darüber hinaus administriere ich auch Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive. Neben dem infrastrukturellen Bereich bin ich täglich auch in die Lösung komplexerer Incidents und in die direkte Kommunikation mit Geschäftskunden eingebunden, überwiegend auf Deutsch.",
-
-          "p4": "Neben meiner regulären Tätigkeit beschäftige ich mich auch selbstständig mit der Entwicklung von Webanwendungen. Ich arbeite hauptsächlich im JavaScript-Umfeld mit Technologien wie React, Vue und Next.js und setze Docker-basierte Linux-Umgebungen in der Regel selbst um, unter anderem mit Hetzner oder AWS. In letzter Zeit interessiere ich mich außerdem sehr für Terraform beziehungsweise Infrastructure as Code, weil ich mein Wissen im Bereich Automatisierung und modernes Infrastrukturmanagement weiter ausbauen möchte."
+          "p3": "Neben meinem Hauptberuf arbeite ich freiberuflich in der Webentwicklung. Ich erstelle Anwendungen mit modernen JavaScript/TypeScript-Frameworks wie React, Vue und Next.js mit PostgreSQL-Anbindung. Diese erstelle und verwalte ich auf Docker-basierten Linux-Infrastrukturen bei Hetzner und AWS und erweitere meine Kenntnisse fortlaufend im Bereich Infrastructure as Code mit Terraform."
         }
       },
       "contact": {
