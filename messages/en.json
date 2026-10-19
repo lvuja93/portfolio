@@ -2,10 +2,10 @@
   "home": {
     "name": "Lazar",
     "lastName": " Vujović",
-    "role": "System & Network Engineer",
+    "role": "System & Network Administrator",
     "heroLead": "Hi, I’m Lazar.",
-    "heroLine2": "I work in environments where reliability matters. My background is rooted in IT infrastructure and managed services, with over 6 years of experience in Windows and Linux server environments, networking, and security.",
-    "heroLine3": "Alongside infrastructure, I actively build web applications using React, Next.js, Vue, and Node.js/PostgreSQL, combining system administration with modern software development, Docker containerization, and Infrastructure as Code with Terraform.",
+    "heroLine2": "I work where reliability matters. I have over 7 years of experience planning, implementing, and managing Windows Server, Hyper-V, Microsoft 365, Linux, and network infrastructures for business customers.",
+    "heroLine3": "I also design and deploy full-stack web applications, and I automate infrastructure and delivery with PowerShell, Bash, Ansible, Terraform, and CI/CD.",
     "tagline1": "Systems fail — it’s an unavoidable part of the job.",
     "tagline2": "My responsibility is to prevent what can be prevented and control what cannot.",
     "nav": {
@@ -41,46 +41,88 @@
     "sections": {
       "experience": {
         "title": "Experience",
-        "subtitle": "Where i worked",
+        "subtitle": "Where I worked",
         "seeall": "See more",
         "items": {
           "i1": {
             "role": "System & Network Administrator",
             "period": "2019 - present",
-            "company": "ITM GmbH (Rosenheim, Germany)",
-            "b1": "• Administration and maintenance of Hyper-V-based Windows server infrastructure and Linux systems for business customers.",
-            "b2": "• Administration and setup of Linux web and database servers.",
-            "b3": "• Writing Bash and PowerShell scripts to automate routine system tasks and deployments.",
-            "b4": "• Managing Docker containers for hosting applications and internal services.",
-            "b5": "• Management of Windows server environments including file servers, terminal servers, and related systems.",
-            "b6": "• Administration of firewall solutions such as Lancom and Sophos, as well as Veeam backup and recovery systems and IP telephony.",
-            "b7": "• Administration of Microsoft 365 environments, including Exchange Online, Teams, SharePoint, and OneDrive.",
-            "b8": "• Administration of Microsoft Azure and Entra ID, including identity, access, and user management.",
-            "b9": "• Daily analysis and resolution of more complex technical incidents in productive customer environments.",
-            "b10": "• Direct communication and technical support for business users, primarily in German."
+            "company": "ITM GmbH (Rosenheim)",
+            "b1": "Planning, deployment, administration, and migration of Windows Server and Linux infrastructures for business customers.",
+            "b2": "Implementation and management of Microsoft Hyper-V environments, including physical hosts, virtual machines, virtual networking, and storage configuration.",
+            "b3": "Administration of Windows Server environments, including Active Directory (AD DS), Group Policy (GPO), file servers, Remote Desktop Services (RDS), DNS, and DHCP.",
+            "b4": "Deployment and administration of Microsoft 365 and Entra ID, including Exchange Online, Teams, SharePoint, OneDrive, identity and access management, and tenant migrations.",
+            "b5": "Configuration and maintenance of network infrastructure, including TCP/IP, VLANs, routing, VPN connectivity, and firewall policies.",
+            "b6": "Administration of Veeam Backup & Replication, including backup configuration, monitoring, and system recovery.",
+            "b7": "Deployment and maintenance of Linux-based web and database servers, Docker environments, and automation using PowerShell and Bash.",
+            "b8": "Troubleshooting complex infrastructure incidents, executing system migrations, and providing technical support to German-speaking business customers."
           },
           "i2": {
-            "role": "Web development",
+            "role": "Web Application Development",
             "period": "2023 - present",
             "company": "Freelance",
-            "b1": "• Freelance development of full-stack web applications using modern JavaScript/TypeScript frameworks.",
-            "b2": "• Design and implementation of responsive frontend interfaces based on React, Vue, and Next.js.",
-            "b3": "• Development and integration of RESTful APIs, backend services, and PostgreSQL databases.",
-            "b4": "• Deployment and maintenance of Docker-based Linux environments for development and production use.",
-            "b5": "• Setting up automated CI/CD pipelines (GitHub Actions) for seamless application deployment.",
-            "b6": "• Provisioning and management of hosting infrastructure on Hetzner and AWS.",
-            "b7": "• Ongoing expansion of expertise in automation and Infrastructure as Code, with a focus on Terraform."
+            "b1": "Design and development of full-stack web applications using TypeScript, React, Next.js, and Vue.js.",
+            "b2": "Development of REST APIs, backend services, and PostgreSQL databases, including database schema design and integration.",
+            "b3": "Deployment and administration of containerized applications using Docker, Docker Compose, and Linux-based hosting environments.",
+            "b4": "Configuration and management of hosting infrastructure on Hetzner and AWS, including web servers, reverse proxies, SSL/TLS certificates, and DNS.",
+            "b5": "Implementation of CI/CD workflows using GitHub Actions, with a focus on automated builds, deployments, and application maintenance."
           }
         }
+      },
+      "projects": {
+        "title": "Projects",
+        "comingSoon": "Coming soon."
+      },
+      "thesis": {
+        "title": "Bachelor thesis",
+        "value": "Web Application: From Development to Production",
+        "note": "Final thesis in Business Informatics, in English and German.",
+        "download": "Download PDF"
       },
       "about": {
         "title": "About me",
         "body": {
-          "p1": "My name is Lazar Vujović, I am 32 years old, and I live in Serbia. I hold a Bachelor of Applied Sciences degree in Business Informatics from the Business School of Applied Sciences. Earlier in my education, I also spent time in Vienna studying Computer Science at the Technical University of Vienna, which was a valuable experience that helped me master the German language and adapt to Western business culture.",
-
-          "p2": "    Currently, I work for the German company ITM GmbH as a System & Network Administrator. My core responsibilities include managing Windows (Hyper-V) and Linux server environments, handling Linux web/database servers, automating tasks with Bash and PowerShell, and managing Dockerized services. I also administer firewall systems (Sophos, Lancom), Veeam backups, IP telephony, and Microsoft 365 / Azure / Entra ID ecosystems, alongside providing Tier 2/3 technical support directly in German.",
-
-          "p3": "Alongside my primary job, I work as a freelance web application developer. I build applications using modern JavaScript/TypeScript frameworks like React, Vue, and Next.js, backed by PostgreSQL. I deploy and maintain these systems on Docker-based Linux infrastructure across Hetzner and AWS, while actively implementing Infrastructure as Code with Terraform."
+          "p1": "My name is Lazar Vujović. I live and work in Serbia, and I have over 7 years of experience planning, implementing, and managing complex IT infrastructures for business customers. My focus is Windows Server, virtualization, Microsoft 365, Linux, and networking.",
+          "p2": "At ITM GmbH in Rosenheim I work as a System & Network Administrator. I deliver infrastructure projects on my own, including Hyper-V, Active Directory, Microsoft 365 and Entra ID, networks and firewalls, and Veeam Backup & Replication. A large part of the work is server migrations, complex incident troubleshooting, and direct support for German-speaking customers.",
+          "p3": "Since 2023 I have also worked freelance on full-stack web applications with TypeScript, React, Next.js, and Vue.js, including REST APIs and PostgreSQL. I deploy them with Docker on Linux, host them on Hetzner and AWS, and automate builds and releases with GitHub Actions."
+        },
+        "education": {
+          "title": "Education",
+          "value": "Bachelor of Applied Sciences in Business Informatics"
+        },
+        "languages": {
+          "title": "Languages",
+          "value": "German — C1 · English — very good · Serbian — native"
+        },
+        "skills": {
+          "title": "Technical skills",
+          "items": [
+            "Windows Server",
+            "Linux",
+            "Hyper-V",
+            "Microsoft 365",
+            "Exchange",
+            "Entra ID",
+            "Azure",
+            "Networking",
+            "Firewalls",
+            "Swyx IP Telephony",
+            "PowerShell",
+            "Bash",
+            "Ansible",
+            "Docker",
+            "Terraform",
+            "Git",
+            "CI/CD",
+            "React",
+            "Next.js",
+            "Vue",
+            "TypeScript",
+            "JavaScript",
+            "REST APIs",
+            "Nginx",
+            "PostgreSQL"
+          ]
         }
       },
       "contact": {

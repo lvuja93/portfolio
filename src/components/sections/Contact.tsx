@@ -1,20 +1,15 @@
 'use client';
 
-import Link from 'next/link';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Section from './Section';
 import { Mail } from 'lucide-react';
 
 export default function Contact() {
-  const locale = useLocale();
   const t = useTranslations('home');
 
   return (
-    <Section
-      id="contact"
-      title={<span className="pl-8">{t('sections.contact.title')}</span>}
-    >
-      <div className="rounded-3xl border border-border/60 bg-card/10 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px] mx-2">
+    <Section id="contact" title={t('sections.contact.title')}>
+      <div className="rounded-3xl border border-border/60 bg-card/10 p-6 backdrop-blur-[2px] sm:backdrop-blur-[6px]">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <div className=" font-semibold text-fg">
@@ -25,12 +20,12 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center   ">
-            <Mail />
+          <div className="flex flex-col items-center gap-2 sm:items-end">
             <a
               href="mailto:contact@lazarvujovic.com"
-              className="rounded-2xl bg-fg px-2 underline py-2  font-medium  text-bg transition hover:bg-fg/90"
+              className="inline-flex items-center gap-2 rounded-2xl bg-fg px-3 py-2 text-sm font-medium text-bg transition hover:bg-fg/90"
             >
+              <Mail className="h-4 w-4" />
               {t('sections.contact.email')}
             </a>
           </div>

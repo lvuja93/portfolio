@@ -1,0 +1,26 @@
+---
+description: What this portfolio is, how it is structured, and conventions to follow
+alwaysApply: true
+---
+
+# Portfolio
+
+Personal site for Lazar Vujović, System & Network Engineer. Live at lazarvujovic.com (Traefik + Docker). Dev server: `npm run dev` → http://localhost:3000.
+
+## Stack
+
+Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, next-intl, next-themes, React Compiler (`reactCompiler: true` in `next.config.ts`). Path alias: `@/*` → `src/*`.
+
+## Layout
+
+- `src/app/layout.tsx` — root: Inter font, theme provider, ops background.
+- `src/app/[locale]/page.tsx` — home: Hero, Experience, About, Contact.
+- Copy lives in `messages/en.json` and `messages/de.json`. Add strings there; do not hardcode user-facing text.
+- Locales: `en` (default) and `de`, prefix always (`/en`, `/de`). Routing helpers come from `src/i18n/routing.ts` (`Link`, `useRouter`, `usePathname`).
+- Theme tokens in `src/app/globals.css`: `bg`, `fg`, `card`, `border`, `accent`, `accent2`. Use those Tailwind colors. Dark mode is the `class` strategy.
+
+## Conventions
+
+- Keep the infrastructure career primary; web development is secondary.
+- Match existing component style: server components by default, client components only when they need state or browser APIs.
+- Verify UI changes in the browser before finishing.

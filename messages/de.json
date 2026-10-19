@@ -2,11 +2,11 @@
   "home": {
     "name": "Lazar",
     "lastName": " Vujović",
-    "role": "System & Network Engineer",
+    "role": "System & Network Administrator",
     "heroLead": "Hi, ich bin Lazar.",
-    "heroLine2": "Ich arbeite in Umgebungen, in denen Zuverlässigkeit zählt. Mein Schwerpunkt liegt in der IT-Infrastruktur und in Managed Services mit über 6 Jahren Erfahrung in Windows- und Linux-Serverumgebungen, Netzwerken und IT-Sicherheit.",
-    "heroLine3": "Neben der Infrastruktur entwickle ich aktiv Webanwendungen mit React, Next.js, Vue und Node.js/PostgreSQL und verbinde Systemadministration mit moderner Softwareentwicklung, Docker-Containerisierung und Infrastructure as Code (Terraform).",
-    "tagline1": "Systeme fallen aus — das ist ein unvermeidbarer Teil des Jobs.",
+    "heroLine2": "Ich arbeite dort, wo Zuverlässigkeit zählt. Ich habe über 7 Jahre Erfahrung in der Planung, Implementierung und Betreuung von Windows-Server-, Hyper-V-, Microsoft-365-, Linux- und Netzwerkinfrastrukturen für Geschäftskunden.",
+    "heroLine3": "Ergänzend konzipiere und betreibe ich Full-Stack-Webanwendungen und automatisiere Infrastruktur und Deployment mit PowerShell, Bash, Ansible, Terraform und CI/CD.",
+    "tagline1": "Systeme fallen aus – das gehört zur Realität.",
     "tagline2": "Meine Aufgabe ist es, vermeidbare Risiken zu reduzieren und Unvermeidbares kontrolliert zu handhaben.",
     "nav": {
       "about": "Mehr über mich",
@@ -21,7 +21,7 @@
       },
       "exp": {
         "title": "Erfahrung",
-        "desc": "Netzwerk, Virtualisierung, Entwicklung. "
+        "desc": "Netzwerk, Virtualisierung, Entwicklung."
       },
       "dev": {
         "title": "Projekte",
@@ -30,7 +30,7 @@
     },
     "cta": { "viewWork": "Ansehen", "contact": "Kontakt" },
     "meta": {
-      "location": "Serbia • DE/EN/SR",
+      "location": "Serbien • DE/EN/SR",
       "availability": "Offen für Angebote"
     },
     "placeholders": {
@@ -41,46 +41,88 @@
     "sections": {
       "experience": {
         "title": "Erfahrung",
-        "subtitle": "Where i worked",
-        "seeall": "See more",
+        "subtitle": "Berufliche Stationen",
+        "seeall": "Mehr anzeigen",
         "items": {
           "i1": {
             "role": "System & Network Administrator",
-            "period": "2019 - present",
-            "company": "ITM GmbH (Rosenheim, Deutschland)",
-            "b1": "• Administration und Betreuung von Hyper-V-basierten Windows Server-Infrastrukturen sowie Linux-Systemen für Geschäftskunden.",
-            "b2": "• Administration und Einrichtung von Linux Web- und Datenbankservern.",
-            "b3": "• Erstellung von Bash- und PowerShell-Skripten zur Automatisierung von Routineaufgaben und Deployments.",
-            "b4": "• Verwaltung von Docker-Containern für das Hosting von Anwendungen und internen Diensten.",
-            "b5": "• Verwaltung von Windows Server-Umgebungen, einschließlich File- und Terminalservern sowie verwandter Systeme.",
-            "b6": "• Administration von Firewall-Lösungen wie Lancom und Sophos sowie von Veeam Backup- & Recovery-Systemen und IP-Telefonie.",
-            "b7": "• Betreuung von Microsoft-365-Umgebungen, einschließlich Exchange Online, Teams, SharePoint und OneDrive.",
-            "b8": "• Administration von Microsoft Azure und Entra ID, einschließlich Benutzer-, Gruppen- und Zugriffsverwaltung.",
-            "b9": "• Tägliche Analyse und nachhaltige Lösung komplexerer technischer Störungen in produktiven Kundenumgebungen.",
-            "b10": "• Direkte Kommunikation und technische Unterstützung für Geschäftskunden, überwiegend in deutscher Sprache."
+            "period": "2019 - heute",
+            "company": "ITM GmbH (Rosenheim)",
+            "b1": "Planung, Implementierung, Administration und Migration von Windows-Server- und Linux-Infrastrukturen für Geschäftskunden.",
+            "b2": "Aufbau und Verwaltung von Microsoft-Hyper-V-Umgebungen, einschließlich physischer Hosts, virtueller Maschinen, virtueller Netzwerke und Storage-Konfiguration.",
+            "b3": "Administration von Windows-Server-Umgebungen, einschließlich Active Directory (AD DS), Gruppenrichtlinien (GPO), Fileservern, Remotedesktopdiensten (RDS), DNS und DHCP.",
+            "b4": "Einrichtung und Administration von Microsoft 365 und Entra ID, einschließlich Exchange Online, Teams, SharePoint, OneDrive, Identitäts- und Zugriffsverwaltung sowie Tenant-Migrationen.",
+            "b5": "Konfiguration und Wartung von Netzwerkinfrastrukturen, einschließlich TCP/IP, VLANs, Routing, VPN-Verbindungen und Firewall-Regeln.",
+            "b6": "Administration von Veeam Backup & Replication, einschließlich Backup-Konfiguration, Überwachung und Systemwiederherstellung.",
+            "b7": "Bereitstellung und Wartung Linux-basierter Web- und Datenbankserver, Docker-Umgebungen sowie Automatisierung administrativer Aufgaben mit PowerShell und Bash.",
+            "b8": "Analyse und Behebung komplexer Infrastrukturstörungen, Durchführung von Servermigrationen sowie technischer Support und direkte Betreuung deutschsprachiger Geschäftskunden."
           },
           "i2": {
-            "role": "Webentwicklung",
-            "period": "2023 - present",
+            "role": "Web & Application Development",
+            "period": "2023 - heute",
             "company": "Freiberuflich",
-            "b1": "• Freiberufliche Entwicklung von Full-Stack-Webanwendungen mit modernen JavaScript/TypeScript-Frameworks.",
-            "b2": "• Konzeption und Umsetzung von responsiven Frontend-Schnittstellen auf Basis von React, Vue und Next.js.",
-            "b3": "• Entwicklung und Integration von RESTful APIs, Backend-Diensten und PostgreSQL-Datenbanken.",
-            "b4": "• Bereitstellung und Wartung Docker-basierter Linux-Umgebungen für Entwicklungs- und Produktionszwecke.",
-            "b5": "• Einrichtung automatisierter CI/CD-Pipelines (GitHub Actions) für nahtlose Anwendungs-Deployments.",
-            "b6": "• Bereitstellung und Verwaltung von Hosting-Infrastrukturen auf Hetzner und AWS.",
-            "b7": "• Kontinuierlicher Ausbau von Kenntnissen in den Bereichen Automatisierung und Infrastructure as Code mit Fokus auf Terraform."
+            "b1": "Konzeption und Entwicklung von Full-Stack-Webanwendungen mit TypeScript, React, Next.js und Vue.js.",
+            "b2": "Entwicklung von REST-APIs, Backend-Diensten und PostgreSQL-Datenbanken, einschließlich Datenbankmodellierung und Integration.",
+            "b3": "Bereitstellung und Administration containerisierter Anwendungen mit Docker und Docker Compose auf Linux-basierten Serverumgebungen.",
+            "b4": "Einrichtung und Verwaltung von Hosting-Infrastrukturen bei Hetzner und AWS, einschließlich Webservern, Reverse Proxies, SSL/TLS-Zertifikaten und DNS-Konfiguration.",
+            "b5": "Implementierung von CI/CD-Pipelines mit GitHub Actions zur Automatisierung von Build-, Deployment- und Wartungsprozessen."
           }
         }
+      },
+      "projects": {
+        "title": "Projekte",
+        "comingSoon": "Folgt in Kürze."
+      },
+      "thesis": {
+        "title": "Bachelorarbeit",
+        "value": "Webanwendung: von der Entwicklung bis zur Produktion",
+        "note": "Abschlussarbeit in Wirtschaftsinformatik, auf Englisch und Deutsch.",
+        "download": "PDF herunterladen"
       },
       "about": {
         "title": "Über mich",
         "body": {
-          "p1": "Mein Name ist Lazar Vujović, ich bin 32 Jahre alt und lebe in Serbien. Ich habe mein Studium als Bachelor of Applied Sciences in Wirtschaftsinformatik an der Fachhochschule für Wirtschaft abgeschlossen. Zuvor habe ich zudem einige Zeit in Wien verbracht und Informatik an der Technischen Universität Wien studiert – eine wertvolle Erfahrung, die mir besonders dabei geholfen hat, die deutsche Sprache zu festigen und mich an die westliche Arbeitskultur anzupassen.",
-
-          "p2": "Derzeit arbeite ich für das deutsche Unternehmen ITM GmbH als System & Network Administrator. Zu meinen Hauptaufgaben gehören die Verwaltung von Windows (Hyper-V) und Linux-Serverumgebungen, die Betreuung von Linux Web- und Datenbankservern, die Automatisierung von Prozessen mittels Bash und PowerShell sowie die Verwaltung von Docker-Diensten. Zudem betreue ich Firewall-Systeme (Sophos, Lancom), Veeam-Backups, IP-Telefonie und das Microsoft 365 / Azure / Entra ID-Ökosystem und biete direkten technischen Support auf Deutsch.",
-
-          "p3": "Neben meinem Hauptberuf arbeite ich freiberuflich in der Webentwicklung. Ich erstelle Anwendungen mit modernen JavaScript/TypeScript-Frameworks wie React, Vue und Next.js mit PostgreSQL-Anbindung. Diese erstelle und verwalte ich auf Docker-basierten Linux-Infrastrukturen bei Hetzner und AWS und erweitere meine Kenntnisse fortlaufend im Bereich Infrastructure as Code mit Terraform."
+          "p1": "Mein Name ist Lazar Vujović. Ich lebe und arbeite in Serbien und habe über 7 Jahre Berufserfahrung in der Planung, Implementierung und Betreuung komplexer IT-Infrastrukturen für Geschäftskunden. Mein Schwerpunkt liegt auf Windows Server, Virtualisierung, Microsoft 365, Linux und Netzwerktechnologien.",
+          "p2": "Bei der ITM GmbH in Rosenheim arbeite ich als System & Network Administrator. Ich setze Infrastrukturprojekte eigenständig um, darunter Hyper-V, Active Directory, Microsoft 365 und Entra ID, Netzwerke und Firewalls sowie Veeam Backup & Replication. Dazu gehören Servermigrationen, die Analyse komplexer Störungen und die direkte Betreuung deutschsprachiger Geschäftskunden.",
+          "p3": "Seit 2023 arbeite ich außerdem freiberuflich an Full-Stack-Webanwendungen mit TypeScript, React, Next.js und Vue.js, einschließlich REST-APIs und PostgreSQL. Ich stelle sie mit Docker auf Linux bereit, betreibe sie bei Hetzner und AWS und automatisiere Build und Deployment mit GitHub Actions."
+        },
+        "education": {
+          "title": "Ausbildung",
+          "value": "Wirtschaftsinformatik (Bachelor of Applied Sciences) an der Fachhochschule"
+        },
+        "languages": {
+          "title": "Sprachen",
+          "value": "Deutsch — C1 · Englisch — sehr gut · Serbisch — Muttersprache"
+        },
+        "skills": {
+          "title": "Fachkenntnisse",
+          "items": [
+            "Windows Server",
+            "Linux",
+            "Hyper-V",
+            "Microsoft 365",
+            "Exchange",
+            "Entra ID",
+            "Azure",
+            "Netzwerkadministration",
+            "Firewall-Systeme",
+            "Swyx IP-Telefonie",
+            "PowerShell",
+            "Bash",
+            "Ansible",
+            "Docker",
+            "Terraform",
+            "Git",
+            "CI/CD",
+            "React",
+            "Next.js",
+            "Vue",
+            "TypeScript",
+            "JavaScript",
+            "REST APIs",
+            "Nginx",
+            "PostgreSQL"
+          ]
         }
       },
       "contact": {
