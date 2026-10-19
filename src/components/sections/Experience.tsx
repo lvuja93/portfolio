@@ -16,7 +16,7 @@ function Item({
 }) {
   return (
     <div className="relative pl-6">
-      <div className="absolute left-0 top-2 h-2 w-2 rounded-full bg-fg/70" />
+      <div className="absolute left-0 top-2 h-2 w-2 rounded-full bg-[rgb(var(--accent))]" />
       <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
         <div>
           <div className="text-base font-semibold text-fg">{role}</div>

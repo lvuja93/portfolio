@@ -4,15 +4,20 @@ export default function Section({
   id,
   title,
   subtitle,
+  className,
   children,
 }: {
   id?: string;
   title: ReactNode;
   subtitle?: string;
+  className?: string;
   children: ReactNode;
 }) {
   return (
-    <section id={id} className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
+    <section
+      id={id}
+      className={`mx-auto w-full max-w-6xl px-4 sm:px-6 ${className ?? 'py-10 sm:py-12'}`}
+    >
       <div className="mb-6">
         <h2 className="text-xl font-semibold tracking-tight text-fg sm:text-2xl">
           {title}

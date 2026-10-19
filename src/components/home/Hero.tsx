@@ -41,7 +41,7 @@ export default function Hero() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label={t('sections.contact.linkedin')}
-                    className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-fg text-bg transition hover:bg-fg/90"
+                    className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border/70 bg-card/20 text-fg transition hover:bg-card/40"
                   >
                     <Linkedin className="h-4 w-4" />
                   </a>
@@ -51,7 +51,7 @@ export default function Hero() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label={t('sections.contact.github')}
-                    className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/70 bg-card/20 text-fg transition hover:bg-card/40"
+                    className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border/70 bg-card/20 text-fg transition hover:bg-card/40"
                   >
                     <Github className="h-4 w-4" />
                   </a>
@@ -61,7 +61,7 @@ export default function Hero() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label={t('sections.contact.instagram')}
-                    className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/70 bg-card/20 text-fg transition hover:bg-card/40"
+                    className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border/70 bg-card/20 text-fg transition hover:bg-card/40"
                   >
                     <Instagram className="h-4 w-4" />
                   </a>
@@ -92,7 +92,7 @@ export default function Hero() {
             <div className="col-span-5">
               <div className="flex justify-center md:justify-start">
                 <div className="max-w-3xl pt-8 sm:pt-2">
-                  <h1 className="text-2xl font-semibold tracking-tight text-fg sm:text-3xl">
+                  <h1 className="text-4xl font-semibold tracking-tight text-fg sm:text-5xl">
                     {t('heroLead')}
                   </h1>
                   <p className="mt-1 text-sm font-medium text-fg/55">{t('role')}</p>
@@ -105,7 +105,7 @@ export default function Hero() {
                     {t('heroLine3')}
                   </p>
 
-                  <div className="mt-4 border-l-2 border-fg/20 pl-3 text-sm leading-relaxed text-fg/70">
+                  <div className="mt-4 border-l-2 border-[rgb(var(--accent))] pl-3 text-sm leading-relaxed text-fg/70">
                     <p>{t('tagline1')}</p>
                     <p>{t('tagline2')}</p>
                   </div>
